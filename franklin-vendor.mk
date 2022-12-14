@@ -6,6 +6,7 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/amlogic/franklin
 
 PRODUCT_COPY_FILES += \
+    vendor/amlogic/franklin/proprietary/vendor/lib/libsecmem.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsecmem.so \
     vendor/amlogic/franklin/proprietary/vendor/lib/liboemcrypto.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboemcrypto.so \
     vendor/amlogic/franklin/proprietary/vendor/usr/idc/Vendor_000d_Product_3838.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/Vendor_000d_Product_3838.idc \
     vendor/amlogic/franklin/proprietary/vendor/usr/idc/Vendor_0508_Product_0110.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/Vendor_0508_Product_0110.idc \
